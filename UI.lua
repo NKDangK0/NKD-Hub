@@ -25,7 +25,7 @@ Pos = Pos or CFrame.new(0, 40, 0)
 ChooseWeapon = ChooseWeapon or "Melee"
 SelectWeapon = SelectWeapon or "Melee"
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/tnyurii/bloxfruit/main/UI.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/NKDangK0/NKD-Hub/refs/heads/main/UI.lua"))()
 local UserInputService = game:GetService("UserInputService")
 local isMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
 local camera = workspace.CurrentCamera
